@@ -20,6 +20,11 @@ angle = 110
 width_impulse = int(angle * 11.1 + 500)
 pi.set_servo_pulsewidth(STEER, width_impulse)
 
+pi.set_servo_pulsewidth(ESC, 1500)
+angle = 90
+width_impulse = int(angle * 11.1 + 500)
+pi.set_servo_pulsewidth(STEER, width_impulse)
+
 angle = -110
 width_impulse = int(angle * 11.1 + 500)
 pi.set_servo_pulsewidth(STEER, width_impulse)
