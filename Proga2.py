@@ -33,7 +33,7 @@ while True:#
 
     cv2.imshow("FRAME", frame)#ВЫВОДИМ ИЗОБРАЖЕНИЕ
 
-    int m = 90
+    m = 90
     
     angle = m + centre_x  
     width_impulse = int(angle * 11.1 + 500)
