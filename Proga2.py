@@ -1,5 +1,9 @@
+import os
+import time
+import pigpio
 import cv2        # ИМПОРТИРУЕМ БИБЛИОТЕКУ OPENCV 
 import numpy as np # ИМПОРТИРУЕМ БИБЛИОТЕКУ NUMPY КАК np
+
 
 
 line_min = np.array((0,0,0), dtype=np.uint8)        # МИНИМАЛЬНЫЙ ЦВЕТОВОЙ ПОРОГ ЛИНИИ
