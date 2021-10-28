@@ -4,7 +4,7 @@ import pigpio
 import cv2        # ИМПОРТИРУЕМ БИБЛИОТЕКУ OPENCV 
 import numpy as np # ИМПОРТИРУЕМ БИБЛИОТЕКУ NUMPY КАК np
 
-
+STEER = 18
 
 line_min = np.array((0,0,0), dtype=np.uint8)        # МИНИМАЛЬНЫЙ ЦВЕТОВОЙ ПОРОГ ЛИНИИ
 line_max = np.array((255,255,163), dtype=np.uint8)  # МАКСИМАЛЬНЫЙ ЦВЕТОВОЙ ПОРОГ ЛИНИИ 
