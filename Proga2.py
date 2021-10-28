@@ -43,7 +43,7 @@ while True:#
     width_impulse = int(angle * 11.1 + 500)
     pi.set_servo_pulsewidth(STEER, width_impulse)
 
-    print(x)
+    print(m)
 
 
     if cv2.waitKey(1) == ord('q'):#ЕСЛЕ НАЖАТА КЛАВИША 'q' ТО
